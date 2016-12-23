@@ -21,13 +21,14 @@
 
       <div ng-controller="mainCtrl" class="list">
         <div ng-repeat ="customer in customers">
-          <input ng-model="customer.completed" type="checkbox">
-          <label ng-hide="editing" class="editing-label">{{customer.name}}</label>
-          <input ng-show="editing" ng-model="customer.name" type="text" class="editing-label">
+         
+          <label ng-hide="editing"  class="editing-label">{{customer.name}}</label>
+          <input  ng-show="editing" ng-model="customer.name" type="text" class="editing-label">
           <label ng-hide="editing" class="editing-label">{{customer.email}}</label>
           <input ng-show="editing" ng-model="customer.email" type="text" class="editing-label">
           <label ng-hide="editing" class="editing-label">{{customer.status}}</label>
           <input ng-show="editing" ng-model="customer.status" type="text" class="editing-label">
+
           <div class="actions">
             <a href="" ng-click="editing = !editing">Edit</a>
             <a href="" ng-click="holla()">Save</a>
