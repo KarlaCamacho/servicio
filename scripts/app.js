@@ -12,40 +12,6 @@ angular.module("serviceApp",[])
 		$scope.customers.push(customer);
 	};
 	
-<<<<<<< HEAD
-	$scope.customers = [
-		{
-			"name":"Isaac Alejandro Rodriguez Morales",
-			"email": "zack_cpp@hotmail.com",
-			"status": "Pendiente",
-			"tel": "879087098098098"
-		},
-		{
-			"name":"Isaac Alejandro Rodriguez Morales",
-			"email": "zack_cpp@hotmail.com",
-			"status": "Pendiente",
-			"tel": "879087098098098"
-		},
-		{
-			"name":"Isaac Alejandro Rodriguez Morales",
-			"email": "zack_cpp@hotmail.com",
-			"status": "Pendiente",
-			"tel": "879087098098098"
-		},
-		{
-			"name":"Isaac Alejandro Rodriguez Morales",
-			"email": "zack_cpp@hotmail.com",
-			"status": "Pendiente",
-			"tel": "879087098098098"
-		},
-		{
-			"name":"Isaac Alejandro Rodriguez Morales",
-			"email": "zack_cpp@hotmail.com",
-			"status": "Pendiente",
-			"tel": "879087098098098"
-		}
-	]
-=======
 	$scope.helloConsole = dataService.helloConsole;
 
 	dataService.getCustomers(function(response){
@@ -81,5 +47,4 @@ angular.module("serviceApp",[])
 	this.saveCustomer = function(customer){
 		console.log("The customer has been saved");
 	};
->>>>>>> upstream/master
 });

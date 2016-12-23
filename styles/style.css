@@ -1,3 +1,4 @@
+
 body {
   color: #2d3339;
   font-family: "Varela Round";
@@ -53,6 +54,8 @@ a {
     text-decoration: line-through; }
   .list .add {
     padding: 25px 0 27px 25px; }
+
+}
 
 
  
